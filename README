@@ -1,0 +1,46 @@
+<!-- COBRA -KBC -->
+
+Cobra KBC is a Python-based quiz game inspired by the popular show Kaun Banega Crorepati (KBC). The game has been designed with engaging features, ensuring an immersive experience for players. Below is a detailed summary of the project:
+
+# Features and Functionalities Lifelines:
+ -> The game incorporates six lifelines to assist players during challenging questions. Each lifeline can be used only once.
+
+ 1. 50:50: Eliminates two incorrect options, leaving one correct answer and one incorrect option. 
+
+ 2. Phone a Friend: Simulates asking a friend for advice with a probability-based response.
+
+ 3. Audience Poll: Displays a percentage-based bar chart representing the audience's choices.
+
+ 4. Switch the Question: Allows the player to skip the current question and get a new one.
+
+ 5. Ask the Expert: Provides the correct answer with a high probability.
+
+ 6. Power Paplu: Revives a previously used lifeline, granting it for reuse.
+
+ -> Winning Cost Calculation and Display:
+
+ Displays the total winning amount as well as the player's progress at each level.
+ Ensures the excitement of gradually increasing rewards.
+
+ -> Randomization:
+
+ Questions and options are randomized to enhance replayability.
+ Lifelines like Audience Poll and Phone a Friend generate dynamic and randomized outputs.
+ -> Basic Functionalities:
+
+ Seamless navigation between questions.
+ Input validation to ensure the game runs smoothly without crashes.
+ Modules Used:
+
+ 1. random: To randomize questions, answers, and certain lifeline outputs.
+ 2. time: To add delays, enhancing the user experience with a game-show-like feel.
+ -> Gameplay Highlights
+ Players answer a series of multiple-choice questions to win increasing amounts of virtual money.
+ The game dynamically adjusts to lifeline usage and keeps players informed of their progress.
+ Thoughtful integration of lifelines ensures strategic gameplay while maintaining fairness.
+ Technical Strengths
+ =>Python Programming: The project showcases solid programming skills with proper use of functions, conditionals, and loops.
+ =>Modular Design: Features are modularly designed, making the code easy to maintain and expand.
+ =>Interactive Experience: User-friendly inputs and engaging lifeline mechanics make the game fun and interactive.
+
+
